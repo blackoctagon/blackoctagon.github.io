@@ -1,31 +1,74 @@
-<h2>Our Team</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Octagon Technologies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>
-  Black Octagon Technologies is run by a small but dedicated team committed to digital
-  safety, secure communication, and access to information.
-</p>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
 
-<div class="team-container">
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-  <div class="team-member">
-    <img src="aung-aung.jpg" alt="Aung Aung">
-    <h3>Aung Aung</h3>
-    <p><strong>Digital Security Expert</strong></p>
-    <p>
-      Focuses on digital safety, secure communication tools, and online privacy training.
-    </p>
-  </div>
+    h1, h2 {
+      text-align: center;
+    }
 
-  <div class="team-member">
-    <img src="kit-kit.jpg" alt="Kit Kit">
-    <h3>Kit Kit</h3>
-    <p><strong>Operations</strong></p>
-    <p>
-      Manages daily operations, logistics, coordination, and workshop organization.
-    </p>
-  </div>
+    h1 {
+      margin-bottom: 10px;
+    }
 
-  <div class="team-member">
-    <img src="ko-hein.jpg" alt="Ko Hein">
-    <h3>Ko Hein</h3>
-    <p><stro
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 10px auto 20px;
+      text-align: center;
+    }
+
+    /* Team section */
+    .team-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .team-member {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .team-member img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .team-member h3 {
+      margin: 10px 0 5px;
+    }
+
+    .team-member p {
+      margin: 5px 0;
+      text-align: center;
+    }
