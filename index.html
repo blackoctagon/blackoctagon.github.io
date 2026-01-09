@@ -5,70 +5,175 @@
   <title>Black Octagon Technologies</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f5f5f5;
       margin: 0;
-      padding: 0;
+      background-color: #f4f4f4;
+      color: #222;
       line-height: 1.6;
-      color: #333;
     }
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h1, h2 {
+    header {
+      background-color: #000;
+      color: #fff;
       text-align: center;
+      padding: 50px 20px;
     }
 
-    h1 {
+    .logo {
+      font-size: 64px;
       margin-bottom: 10px;
     }
 
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
     h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
       margin-top: 40px;
-      margin-bottom: 20px;
     }
 
-    p {
-      max-width: 800px;
-      margin: 10px auto 20px;
-      text-align: center;
-    }
-
-    /* Team section */
+    /* Team Section */
     .team-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      flex-wrap: wrap;
       margin-top: 30px;
     }
 
     .team-member {
-      background: #ffffff;
+      background: #f9f9f9;
       padding: 20px;
-      border-radius: 8px;
+      width: 260px;
       text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
     }
 
     .team-member img {
-      width: 120px;
-      height: 120px;
+      width: 100%;
+      height: 240px;
       object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 15px;
+      border-radius: 6px;
     }
 
     .team-member h3 {
-      margin: 10px 0 5px;
+      margin: 15px 0 5px;
     }
 
     .team-member p {
-      margin: 5px 0;
-      text-align: center;
+      font-size: 14px;
+      color: #555;
     }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-octagon"></i>
+    </div>
+    <h1>Black Octagon Technologies</h1>
+    <p>Research & Training on Internet and Digital Safety in Myanmar</p>
+  </header>
+
+  <section>
+
+    <h2>About Us</h2>
+    <p>
+      <strong>Black Octagon Technologies</strong> is a research and training group working on
+      internet and digital safety in Myanmar. We study internet access, online scams,
+      censorship, and VPNs.
+    </p>
+    <p>
+      We help people stay safe online and understand how to access information freely.
+      We also run workshops and trainings for students, community groups, and NGOs.
+    </p>
+
+    <h2>What We Do</h2>
+    <ul>
+      <li>Monitor internet shutdowns and blocked websites</li>
+      <li>Investigate online scams and digital fraud</li>
+      <li>Teach safe internet use and secure tools such as VPNs</li>
+      <li>Run easy-to-follow workshops and trainings on digital safety</li>
+    </ul>
+
+    <h2>Our Mission</h2>
+    <p>
+      To make the internet safer and easier to use for everyone in Myanmar.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+      A Myanmar where people can access information freely and protect themselves online.
+    </p>
+
+    <h2>Our Team</h2>
+    <p>
+      Black Octagon Technologies is run by a small but dedicated team:
+    </p>
+
+    <div class="team-container">
+
+      <div class="team-member">
+        <img src="aung-aung.jpg" alt="Aung Aung">
+        <h3>Aung Aung</h3>
+        <p><strong>Digital Security Expert</strong></p>
+        <p>
+          Focuses on digital safety, secure communication tools, and online privacy training.
+        </p>
+      </div>
+
+      <div class="team-member">
+        <img src="kit-kit.jpg" alt="Kit Kit">
+        <h3>Kit Kit</h3>
+        <p><strong>Operations</strong></p>
+        <p>
+          Manages daily operations, logistics, coordination, and workshop organization.
+        </p>
+      </div>
+
+      <div class="team-member">
+        <img src="ko-hein.jpg" alt="Ko Hein">
+        <h3>Ko Hein</h3>
+        <p><strong>Assistant Trainer</strong></p>
+        <p>
+          Supports training sessions, helps participants, and assists with technical setup.
+        </p>
+      </div>
+
+    </div>
+
+    <p>
+      Together, the team combines technical expertise, operations support, and hands-on
+      training to help people stay safe online and access information freely.
+    </p>
+
+  </section>
+
+  <footer>
+    © 2026 Black Octagon Technologies
+  </footer>
+
+</body>
+</html>
